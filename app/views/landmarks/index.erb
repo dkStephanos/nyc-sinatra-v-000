@@ -1,0 +1,9 @@
+<h1>Landmarks</h1>
+
+<dl>
+  <%@landmarks.each do |landmark|%>
+    <dt><%=landmark.name%></dt>
+    <dd><%=landmark.year_completed%></dd>
+    <br></br>
+  <%end%>
+</dl>
